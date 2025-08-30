@@ -7,6 +7,9 @@
         text-align: center;
     }
 }
+body{
+    cursor: pointer;
+}
 .content button{
     background-color: transparent;
     color: white;
