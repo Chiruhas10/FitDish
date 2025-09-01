@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitDish!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+   <header class="container-fluid p-0 text-bg-success sticky-top border-danger">
+    <nav class="navbar navbar-expand-lg p-0 ">
+    <div class="container">
+        <a href="" class="navbar-brand">
+            <img src="assets/logo.webp"  alt="FitDish Logo" class="img-fluid p-0 m-0" style="width: 100px;">
+            <h1 class="display-6 fw-bold d-inline align-middle"><strong> FitDish!</strong></h1>
+        </a>
+        <button class="navbar-toggler" data-bs-target="#myNav" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       <div class="collapse navbar-collapse" id="myNav">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link text-light">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link  text-light">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="benefits.html" class="nav-link  text-light">Benefits</a>
+            </li>
+            <li class="nav-item">
+                <a href="meal planner.html" class="nav-link  text-light">Meal Planner</a>
+            </li>
+            <li class="nav-item">
+                <a href="workouts.html" class="nav-link  text-light">workouts</a>
+            </li>
+            <li class="nav-item">
+                <a href="fitness tips.html" class="nav-link  text-light">Fitness tips</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link text-light">Contact Us</a>
+            </li>
+        </ul>
+       </div>
+    </div>
+    </nav>
+   </header>
+    <section class="container-fluid p-0">
+        <div class="carousel slide" id="mainSlider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mainSlider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mainSlider" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg1 lazy-bg">
+                        <h1>🔥 Fuel Your Body</h1>
+                        <p>Start your day with power-packed meals and high energy.</p>
+                        <a href="meal planner.html"><button>View Meal Plans</button></a>
+                    </div>
+                    </div>
+              
+                <div class="carousel-item">
+                    <div class="bg3 lazy-bg">
+                        <h1>💪 Train Like a Pro</h1>
+                        <p>No equipment needed. Just you, your body, and the will to grow.</p>
+                        <a href="workouts.html"><button>Start Workout</button></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg4 lazy-bg">
+                        <h1>🧠 Discipline Over Motivation</h1>
+                        <p>Motivation fades. Build habits that keep you moving every day.</p>
+                        <a href="fitness tips.html"><button>Explore Habit Tips</button></a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#mainSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#mainSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+    <!--Modal starts-->
+    <div class="modal fade" id="booking" data-bs-backdrop="static" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header"> <h5><strong>Fuel Your Fitness 💪</strong></h5>
+                <button class="btn btn-close"  data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><i class="bi bi-arrow-return-right"></i>   Bulking</li>
+                        <li class="list-group-item border-0"><i class="bi bi-arrow-return-right"></i> Cutting</li>
+                        <li class="list-group-item border-0"><i class="bi bi-arrow-return-right"></i> Lean Maintenance</li>
+                    </ul>
+                </div>
+                <div class="modal-footer bg-secondary-subtle">
+                    <a href="meal planner.html">
+                    <button class="btn btn-primary">Custom Meal Guide for You</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal end-->
+    
+    <section class="container-fluid p-5 bg-light">
+        <div class="container">
+        <h2><strong><em>Everything You Need to Get Fit</em></strong></h2>
+        <div class="row g-4 py-5">
+            <div class="col-md-12 col-lg-6 ">
+                <div class="card h-100  shadow-lg border-0">
+                    <div class="card-body p-5">
+                        <div class="card-title"><h4><strong>🥗 Meal Planner</strong></h4></div>
+                        <card-text class="py-5">Customize your meals based on your goal — bulking, cutting, or staying lean. Simple, clean, and effective nutrition at your fingertips.</card-text>
+                        <br>
+                        <button class="btn btn-success mt-3" data-bs-target="#booking" data-bs-toggle="modal">Plan Your Meals</button>
+                    </div>
+                </div>
+            </div>
+
+     <!--Modal starts-->
+    <div class="modal fade" id="booking1" data-bs-backdrop="static" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header"> <h5><strong> 🏋️‍♂️Workout Plans for Every Goal</strong></h5>
+                <button class="btn btn-close"  data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Choose your fitness goal to unlock a workout routine that fits your journey. Whether you're building muscle, cutting fat, or staying active — we've got you covered!</strong></p>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><i class="bi bi-arrow-return-right"></i>   Bulking</li>
+                        <li class="list-group-item border-0"><i class="bi bi-arrow-return-right"></i> Cutting</li>
+                        <li class="list-group-item border-0"><i class="bi bi-arrow-return-right"></i> Lean Maintenance</li>
+                    </ul>
+                </div>
+                <div class="modal-footer bg-secondary-subtle">
+                    <a href="workouts.html">
+                    <button class="btn btn-primary">Train Now!</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal end-->        
+
+             <div class="col-md-12 col-lg-6">
+                <div class="card h-100 shadow-lg border-0">
+                    <div class="card-body p-5">
+                        <div class="card-title"><h4><strong>💪 Workouts</strong></h4></div>
+                        <card-text class="py-5">Access goal-based workouts: no equipment? no problem. Choose routines for home or gym — beginner to advanced.</card-text>
+                        <br>
+                        <button class="btn btn-success mt-3"  data-bs-target="#booking1" data-bs-toggle="modal"> Start Workout</button>
+                    </div>
+                </div>
+            </div>
+
+     <!--Modal starts-->
+    <div class="modal fade" id="booking2" data-bs-backdrop="static" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header"> <h5><strong>🚀💪 Boost Your Routine</strong></h5>
+                <button class="btn btn-close"  data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p> <strong>Want better results?</strong></p>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0">⏱️<strong>Be consistent:</strong> Show up, even on low-energy days.</li>
+                        <li class="list-group-item border-0">💧<strong>Stay hydrated:</strong> Drink water before, during, and after workouts.</li>
+                        <li class="list-group-item border-0">🥗<strong>Fuel right:</strong> Eat whole foods rich in protein and fiber.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer bg-secondary-subtle">
+                    <a href="fitness tips.html">
+                    <button class="btn btn-primary">More tips!  </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal end-->  
+
+            <div class="col-md-12 col-lg-6">
+                <div class="card h-100 shadow-lg border-0">
+                    <div class="card-body p-5">
+                        <div class="card-title"><h4><strong>💡 Fitness Tips</strong></h4></div>
+                        <card-text class="py-5">Get science-backed tips on nutrition, training, and recovery. Fuel your body and sharpen your routine the smart way.</card-text>
+                        <br>
+                        <button class="btn btn-success mt-3"  data-bs-target="#booking2" data-bs-toggle="modal"> Read Tips</button>
+                    </div>
+                </div>
+            </div>
+
+             
+
+             <div class="col-md-12 col-lg-6">
+                <div class="card h-100 shadow-lg border-0">
+                    <div class="card-body p-5">
+                        <div class="card-title"><h4><strong>Contact Us</strong></h4></div>
+                        <card-text class="py-5">We’d love to hear from you! Whether it's feedback, questions, or partnership opportunities, feel free to reach out.</card-text>
+                        <br>
+                        <a href="contact.html">
+                        <button class="btn btn-success mt-3">  Contact Us!</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+     </div>  
+     
+      
+
+     
+    </section>
+     
+   <footer class="text-bg-dark text-center py-4">
+  <div class="container">
+    <p class="mb-1">© 2025 <strong> @FitDish!</strong></p>
+    <p >All Rights Reserved • Designed by <strong>Chiruu 💪</strong></p>
+  </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,271 @@
+, before text-center in content and nav
+carousel-item content in mobile view
+
+<!--Goal Buttons starts-->
+        <div class="container goalbutton p-3 d-flex justify-content-center gap-3">
+            <a href="#bulking"><button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#collapseExample" >Bulking</button></a> 
+            <a href="#cutting"><button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#collapseExample1">Cutting</button></a>
+            <a href="#lean-maintenance"><button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#collapseExample2">Lean Maintenance</button></a>
+        </div>
+        <!--Goal Buttons ends-->
+
+
+
+    <!--Meal cards starts-->
+        <section class="plan-desc card p-4 shadow-sm mb-4" id="bulking">
+        <div class="container p-5">
+            <div class="row g-4 py-5">
+                <div class="col-md-12 col-lg-6">
+                    <div class="collapse multi-collapse" id="collapseExample">
+                    <div class="card h-100 shadow-lg border-0">
+                        <div class="card-header text-bg-primary"><strong>🥣 Breakfast</strong></div>
+                        <div class="card-body">
+                            <ul class="mb-3">
+                                <li>6 egg whites + 2 whole eggs (boiled or omelette)</li>
+                                <li>1 cup oats with milk, banana, peanut butter</li>
+                                <li>Handful of almonds/walnuts</li>
+                                <li>Black coffee or banana smoothie with whey</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col-md-12 col-lg-6">     
+                    <div class="collapse multi-collapse" id="collapseExample">     
+                    <div class="card  h-100 shadow-lg  border-0">
+                        <div class="card-header text-bg-primary"><strong>🍱 Lunch</strong></div>
+                        <div class="card-body">
+                            <ul>
+                                <li>1.5 cups brown rice or 2 rotis</li>
+                                <li>Grilled chicken breast / Paneer / Tofu</li>
+                                <li>Mixed vegetable curry</li>
+                                <li>Dal + curd</li>
+                                <li>Fresh salad</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-12 col-lg-6">   
+                    <div class="collapse multi-collapse" id="collapseExample">
+                    <div class="card h-100 shadow-lg  border-0 ">
+                        <div class="card-header text-bg-primary"><strong>🥪 Snacks</strong></div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Boiled sweet potatoes or chickpeas</li>
+                                <li>Protein bar or banana with peanut butter</li>
+                                <li>Green tea</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-12 col-lg-6"> 
+                    <div class="collapse multi-collapse" id="collapseExample">         
+                    <div class="card h-100 shadow-lg  border-0 ">
+                        <div class="card-header text-bg-primary"><strong>🍛 Dinner</strong></div>
+                        <div class="card-body">
+                            <ul>
+                                <li>2 rotis or rice + dal + paneer/tofu</li>
+                                <li>Sautéed or steamed vegetables</li>
+                                <li>Avocado or olive oil salad</li> 
+                                <li>Optional: Chicken or fish if non-veg</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse multi-collapse" id="collapseExample">
+        <div class="container text-white">
+            <h2>🔢 Daily Macros (Approximate):</h2>
+            <ul>
+                <li>Calories: 2800–3200 kcal</li>
+                <li>Protein: 130–160g</li>
+                <li>Carbs: 300–350g</li>
+                <li>Fats: 80–100g</li>
+            </ul>
+            <div class="alert alert-info" role="alert">
+            <p><strong>📌 Tip:</strong>  Adjust portion sizes based on your current weight & training intensity.</p>
+            </div>
+        </div>
+        </div>
+
+        </section>
+
+       <section id="cutting">
+        <div class="container p-5">
+            <div class="row g-4 py-5">
+                <div class="col-md-12 col-lg-6">
+                    <div class="collapse multi-collapse" id="collapseExample1">
+                    <div class="card h-100 shadow-lg border-0">
+                        <div class="card-header text-bg-warning"><strong>🥣 Breakfast</strong></div>
+                        <div class="card-body">
+                            <ul class="mb-3">
+                                <li>4 boiled egg whites + 1 whole egg</li>
+                                <li>1 slice whole grain bread or small oats bowl</li>
+                                <li>Green tea or black coffee</li>
+                                <li>1 fruit (apple or papaya)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            
+
+             
+                <div class="col-md-12 col-lg-6">  
+                    <div class="collapse multi-collapse" id="collapseExample1">        
+                    <div class="card shadow-lg h-100">
+                        <div class="card-header text-bg-warning"><strong>🍱 Lunch</strong></div>
+                        <div class="card-body">
+                            <ul >
+                                <li>1–1.5 cups brown rice or 2 small rotis</li>
+                                <li>Grilled chicken/fish or paneer (100–150g)</li>
+                                <li>Steamed veggies (broccoli, spinach, carrots)</li>
+                                <li>Fresh salad (no dressing)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-12 col-lg-6">   
+                    <div class="collapse multi-collapse" id="collapseExample1">       
+                    <div class="card shadow-lg h-100 ">
+                        <div class="card-header text-bg-warning"><strong>🥪 Snacks</strong></div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Black coffee or green tea</li>
+                                <li>Roasted chickpeas or boiled egg whites (2–3)</li>
+                                <li>Handful of peanuts (optional)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-12 col-lg-6">     
+                    <div class="collapse multi-collapse" id="collapseExample1">     
+                    <div class="card shadow-lg h-100 ">
+                        <div class="card-header text-bg-warning"><strong>🍛 Dinner</strong></div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Grilled paneer/tofu/chicken breast</li>
+                                <li>Mixed veggie sauté</li>
+                                <li>Small bowl of soup or 1 roti (optional)</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse multi-collapse" id="collapseExample1">
+        <div class="container text-white">
+            <h2>🔢 Daily Macros (Approximate):</h2>
+            <ul>
+                <li>Calories: 1500-1900 kcal</li>
+                <li>Protein: 110-130g</li>
+                <li>Carbs: 100-150g</li>
+                <li>Fats: 40-60g</li>
+            </ul>
+            <div class="alert alert-info" role="alert">
+            <p><strong>📌 Tip:</strong>   Drink 3–4L water daily. Avoid sugar, fried foods, and high sodium items.</p>
+            </div>
+        </div>
+        </div> 
+        </section>
+
+        <section id="lean maintenance">
+        <div class="container p-5">
+            <div class="row g-4 py-5">
+                <div class="col-md-12 col-lg-6">
+                    <div class="collapse multi-collapse" id="collapseExample2">
+                    <div class="card h-100 shadow-lg border-0">
+                        <div class="card-header text-bg-success"><strong>🥣 Breakfast</strong></div>
+                        <div class="card-body">
+                            <ul class="mb-3">
+                                <li>2 boiled eggs + 2 egg whites</li>
+                                <li>1 slice multigrain bread or oats (½ cup cooked)</li>
+                                <li>Handful of walnuts or almonds</li>
+                                <li>Black coffee or green tea</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            
+
+             
+                <div class="col-md-12 col-lg-6">  
+                    <div class="collapse multi-collapse" id="collapseExample2">        
+                    <div class="card shadow-lg h-100 border-0">
+                        <div class="card-header text-bg-success"><strong>🍱 Lunch</strong></div>
+                        <div class="card-body">
+                            <ul >
+                                <li>1.5 cups brown rice or 2 rotis (multigrain)</li>
+                                <li>Grilled chicken/fish or paneer (100–150g)</li>
+                                <li>Sautéed veggies (capsicum, broccoli, beans)</li>
+                                <li>Curd or small salad with lemon</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-12 col-lg-6">     
+                    <div class="collapse multi-collapse" id="collapseExample2">     
+                    <div class="card shadow-lg h-100 border-0 ">
+                        <div class="card-header text-bg-success"><strong>🥪 Snacks</strong></div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Buttermilk or green tea</li>
+                                <li>Roasted peanuts or sprouts</li>
+                                <li>1 fruit (like apple or pomegranate)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class=" col-md-12 col-lg-6">       
+                    <div class="collapse multi-collapse" id="collapseExample2">   
+                    <div class="card shadow-lg h-100  border-0">
+                        <div class="card-header text-bg-success"><strong>🍛 Dinner</strong></div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Paneer/tofu/chicken breast with vegetables</li>
+                                <li>Small portion of quinoa or 1 phulka</li>
+                                <li>Lentil soup or dal</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse multi-collapse" id="collapseExample2">
+        <div class="container text-white">
+            <h2>🔢 Daily Macros (Approximate):</h2>
+            <ul>
+                <li>Calories: 2000–2300 kcal</li>
+                <li>Protein: 100–130g</li>
+                <li>Carbs: 150–200g</li>
+                <li>Fats:50–60g</li>
+            </ul>
+            <div class="alert alert-info" role="alert">
+            <p><strong>📌 Tip:</strong>  Lean maintenance works best with consistent protein intake and balanced meals every 3–4 hours.</p>
+            </div>
+        </div>
+        </div>
+
+        </section>

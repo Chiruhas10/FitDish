@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitDish!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header class="container-fluid p-0 text-bg-success sticky-top">
+    <nav class="navbar navbar-expand-lg p-0">
+    <div class="container">
+        <a href="" class="navbar-brand">
+            <img src="assets/logo.webp"  alt="FitDish Logo" class="img-fluid p-0 m-0" style="width: 100px;">
+            <h1 class="display-6 fw-bold d-inline align-middle"><strong> FitDish!</strong></h1>
+        </a>
+        <button class="navbar-toggler" data-bs-target="#myNav" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       <div class="collapse navbar-collapse" id="myNav">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link text-light">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link  text-light">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="benefits.html" class="nav-link  text-light">Benefits</a>
+            </li>
+            <li class="nav-item">
+                <a href="meal planner.html" class="nav-link  text-light">Meal Planner</a>
+            </li>
+            <li class="nav-item">
+                <a href="workouts.html" class="nav-link  text-light">workouts</a>
+            </li>
+            <li class="nav-item">
+                <a href="fitness tips.html" class="nav-link  text-light">Fitness tips</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link text-light">Contact Us</a>
+            </li>
+        </ul>
+       </div>
+    </div>
+    </nav>
+    </header>
+
+    <section class="container-fluid p-5" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(assets/contactbg.webp); background-size: cover; background-repeat: no-repeat;">
+        <div class="col-lg-6 shadow p-5 mx-auto bg-light rounded">
+            <h3 class="display-6 fw-bold text-center mb-3">Get In Touch</h3>
+            <form name="contact" onsubmit="return check()"  action="submit.html">
+                <input type="text" class="form-control mb-3" name="username" placeholder="Enter name" >
+                <p id="nameError" class="text-danger px-2  fw-semibold"></p>
+                <input type="email" class="form-control mb-3" name="email" placeholder="Enter email">
+                <p id="emailError" class="text-danger px-2  fw-semibold"></p>
+                <input type="tel" class="form-control mb-3" name="phone" placeholder="Enter phone number">
+                <p id="phoneError" class="text-danger px-2  fw-semibold"></p>
+                 <textarea id="message" class="form-control" placeholder="Write your message..." rows="5"  required></textarea>
+                 <p id="messageError" class="text-danger px-2  fw-semibold"></p>
+                <div class="row">
+                    <div class="col-6">
+                        <button class="btn btn-primary w-100" ><b>Submit</b></button>
+                    </div>
+                    <div class="col-6">
+                        <button class="btn btn-secondary w-100" type="reset"><b>Reset</b></button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-bg-dark text-center py-4">
+  <div class="container">
+    <p class="mb-1">© 2025 <strong> @FitDish! </strong></p>
+    <p >All Rights Reserved • Designed by <strong>Chiruu 💪</strong></p>
+  </div>
+</footer>
+
+    <script src="validate.js"></script> 
+
+</body>
+</html>
+
+
+     

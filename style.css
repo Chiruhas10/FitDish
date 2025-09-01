@@ -1,0 +1,127 @@
+@media(max-width:992px){
+    .about img{
+        display: none;
+    }
+    .carousel-item h1,p{
+        padding: 0px 50px;
+        text-align: center;
+    }
+}
+body{
+    cursor: pointer;
+}
+.content button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.content button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+ span{
+  color: #28a745;
+  font-style: italic;
+}
+.content h1{
+    font-style: italic;
+
+}
+.bg1, .bg2, .bg3, .bg4{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.bg1{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.427)), url(assets/bg1.webp);
+}
+.bg2{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.427)), url(assets/bg2.webp);
+}
+.bg3{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.427)), url(assets/bg3.webp);
+}
+.bg4{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.427)), url(assets/bg4.webp);
+}
+.carousel h1{
+    font-weight: 900;
+}
+.carousel p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.carousel-item button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.carousel-item button:hover{
+    background-color: white;
+    color: black;
+}
+.nav-item{
+    margin: 10px;
+    padding: 0px 10px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+ .nav-item:hover{
+    border-radius: 10px;
+    background-color: black;
+} 
+
+.modal-body ul li{
+    padding: 10px;
+    margin: 10px;
+
+}
+.modal-body ul li:hover{
+    background-color: #198754;
+    color: black;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.workout1{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.506)) ,url(assets/workoutbg1.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 20px black;
+}
+.workout2{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.506)), url(assets/workout\ bg2.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 20px black;
+}
+.workout3{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.506)), url(assets/workoutbg3.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 20px black;
+}
+.cardio .list-group-item:hover{
+    background-color: skyblue;
+    color: black;
+}
+
+.goalbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

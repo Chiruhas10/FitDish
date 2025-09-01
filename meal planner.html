@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitDish!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .plan-desc {
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  max-height: 0;
+  opacity: 0;
+}
+.plan-desc.show {
+  display: block;
+  max-height: 1000px; /* expands */
+  opacity: 1;
+}
+
+    </style>
+</head>
+<body>
+    <header class="container-fluid p-0 text-bg-success sticky-top">
+    <nav class="navbar navbar-expand-lg p-0">
+    <div class="container">
+        <a href="" class="navbar-brand">
+            <img src="assets/logo.webp"  alt="FitDish Logo" class="img-fluid p-0 m-0" style="width: 100px;">
+            <h1 class="display-6 fw-bold d-inline align-middle"><strong> FitDish!</strong></h1>
+        </a>
+        <button class="navbar-toggler" data-bs-target="#myNav" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       <div class="collapse navbar-collapse" id="myNav">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link text-light">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link  text-light">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="benefits.html" class="nav-link  text-light">Benefits</a>
+            </li>
+            <li class="nav-item">
+                <a href="meal planner.html" class="nav-link  text-light">Meal Planner</a>
+            </li>
+            <li class="nav-item">
+                <a href="workouts.html" class="nav-link  text-light">workouts</a>
+            </li>
+            <li class="nav-item">
+                <a href="fitness tips.html" class="nav-link  text-light">Fitness tips</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link text-light">Contact Us</a>
+            </li>
+        </ul>
+       </div>
+    </div>
+    </nav>
+    </header>
+
+
+<!-- Hero Section -->
+  <section class="Mealbg  text-center text-white py-5" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.511), rgba(0, 0, 0, 0.511)), url(assets/bg1.webp); background-size: cover; background-position: center; height: 100vh;">
+    <div class="container">
+      <h1 class=" display-6 fw-bold">Your Personalized Meal Planner</h1>
+      <p class="lead fw-normal">Choose your goal and get a meal plan that fits your lifestyle.</p>
+      <div class="d-flex justify-content-center gap-3 mt-3">
+        <button class="btn btn-primary" onclick="showPlan('bulking')">Bulking</button>
+        <button class="btn btn-success" onclick="showPlan('cutting')">Cutting</button>
+        <button class="btn btn-warning" onclick="showPlan('lean')">Lean Maintenance</button>
+      </div>
+    </div>
+ 
+
+  <!-- Meal Plans Section -->
+  <div class="container py-5">
+
+    <!-- Bulking -->
+    <div id="bulking" class="plan-desc card p-4 shadow-sm mb-4">
+      <h3 class="text-primary">💪 Bulking Plan</h3>
+      <p>High-calorie, protein-rich meals designed to help you gain muscle mass effectively while staying energized.</p>
+      <table class="table table-bordered mt-3 p-5">
+        <thead class="table-primary">
+          <tr>
+            <th>Time</th>
+            <th>Meal</th>
+            <th>Example Food</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Breakfast</td><td>High-protein start</td><td>Oats, Eggs, Banana</td></tr>
+          <tr><td>Mid-Morning</td><td>Snack</td><td>Protein shake, Nuts</td></tr>
+          <tr><td>Lunch</td><td>Balanced bulk meal</td><td>Rice, Chicken, Veggies</td></tr>
+          <tr><td>Evening</td><td>Snack</td><td>Greek yogurt, Berries</td></tr>
+          <tr><td>Dinner</td><td>Heavy & nutritious</td><td>Sweet potato, Fish</td></tr>
+          <tr><td>Before Bed</td><td>Light protein</td><td>Cottage cheese</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Cutting -->
+    <div id="cutting" class="plan-desc card p-4 shadow-sm mb-4">
+      <h3 class="text-success">🔥 Cutting Plan</h3>
+      <p>Low-calorie, nutrient-dense meals that help reduce body fat while preserving lean muscle mass.</p>
+      <table class="table table-bordered mt-3">
+        <thead class="table-success">
+          <tr>
+            <th>Time</th>
+            <th>Meal</th>
+            <th>Example Food</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Breakfast</td><td>Light protein</td><td>Egg whites, Avocado toast</td></tr>
+          <tr><td>Mid-Morning</td><td>Snack</td><td>Apple, Almonds</td></tr>
+          <tr><td>Lunch</td><td>Lean meal</td><td>Grilled chicken, Broccoli, Quinoa</td></tr>
+          <tr><td>Evening</td><td>Snack</td><td>Protein shake, Carrot sticks</td></tr>
+          <tr><td>Dinner</td><td>Low-carb</td><td>Fish, Green salad</td></tr>
+          <tr><td>Before Bed</td><td>Light snack</td><td>Low-fat yogurt</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Lean Maintenance -->
+    <div id="lean" class="plan-desc card p-4 shadow-sm mb-4">
+      <h3 class="text-warning">⚡ Lean Maintenance Plan</h3>
+      <p>Balanced meals that maintain your current weight while keeping you strong and healthy.</p>
+      <table class="table table-bordered mt-3">
+        <thead class="table-warning">
+          <tr>
+            <th>Time</th>
+            <th>Meal</th>
+            <th>Example Food</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Breakfast</td><td>Balanced start</td><td>Whole grain toast, Eggs, Orange</td></tr>
+          <tr><td>Mid-Morning</td><td>Snack</td><td>Smoothie, Nuts</td></tr>
+          <tr><td>Lunch</td><td>Healthy balanced</td><td>Brown rice, Chicken, Veggies</td></tr>
+          <tr><td>Evening</td><td>Snack</td><td>Fruit bowl, Yogurt</td></tr>
+          <tr><td>Dinner</td><td>Light balanced</td><td>Fish, Sweet potato, Salad</td></tr>
+          <tr><td>Before Bed</td><td>Snack</td><td>Milk, Dry fruits</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+   </section>
+
+  <!-- Footer -->
+  <footer class="text-bg-dark text-center py-4">
+  <div class="container">
+    <p class="mb-1">© 2025 <strong> @FitDish! </strong></p>
+    <p >All Rights Reserved • Designed by <strong>Chiruu 💪</strong></p>
+  </div>
+</footer>
+
+  <!-- Script -->
+    <script>
+    let activePlan = null; // track which plan is open
+
+    function showPlan(planId) {
+        const selected = document.getElementById(planId);
+
+        // If the same plan is already open → close it
+        if (activePlan === planId) {
+        selected.classList.remove('show');
+        activePlan = null;
+        return;
+        }
+
+        // Close all first
+        document.querySelectorAll('.plan-desc').forEach(desc => {
+        desc.classList.remove('show');
+        });
+
+        // Open the selected one
+        if (selected) {
+        selected.classList.add('show');
+        activePlan = planId;
+        }
+    }
+    </script>
+
+</body>
+</html>

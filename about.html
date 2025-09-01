@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitDish!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header class="container-fluid p-0 text-bg-success sticky-top">
+    <nav class="navbar navbar-expand-lg p-0">
+    <div class="container">
+        <a href="" class="navbar-brand">
+            <img src="assets/logo.webp"  alt="FitDish Logo" class="img-fluid p-0 m-0" style="width: 100px;">
+            <h1 class="display-6 fw-bold d-inline align-middle"><strong> FitDish!</strong></h1>
+        </a>
+        <button class="navbar-toggler" data-bs-target="#myNav" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       <div class="collapse navbar-collapse" id="myNav">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link text-light">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link  text-light">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="benefits.html" class="nav-link  text-light">Benefits</a>
+            </li>
+            <li class="nav-item">
+                <a href="meal planner.html" class="nav-link  text-light">Meal Planner</a>
+            </li>
+            <li class="nav-item">
+                <a href="workouts.html" class="nav-link  text-light">workouts</a>
+            </li>
+            <li class="nav-item">
+                <a href="fitness tips.html" class="nav-link  text-light">Fitness tips</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link text-light">Contact Us</a>
+            </li>
+        </ul>
+       </div>
+    </div>
+    </nav>
+    </header>
+     <section class="container about">
+        <div class="row ">
+            <div class="col-lg-6 p-5 ">
+        <h1 class="p-3"> 🌟 Our Mission</h1>
+        <p> Our mission is simple:
+           To help you eat smarter, move better, and live stronger.
+           We believe that fitness is not just about lifting weights or counting calories — it’s a lifestyle that begins with awareness and consistency.</p>
+        <br>
+           <h1 class="p-3">🧠 Why EatFit?</h1>
+        <ul>
+            <li>Most people struggle with what to eat and how to stay fit.</li>
+            <li>EatFit brings together simple meal plans and effective home workouts tailored for students, working professionals, and beginners.</li>
+            <li>We remove the confusion and bring clarity to your daily fitness routine.</li>
+        </ul>
+        <br>    
+        <h1 class="p-3">✅ What You’ll Get Here:</h1>
+        <ul>
+            <li>Daily Meal Planners with calorie info</li>
+            <li>Beginner-friendly workouts</li>
+            <li>Motivation to stay consistent</li>
+            <li>All built using pure Bootstrap and responsive design</li>
+        </ul>
+        </div>
+        <div class="col-lg-6">
+        <img src="assets/pic1.webp" loading="lazy" class="w-100" alt="">
+        </div>
+           <div class="container-fluid p-5">
+                <h1 class="p-3">🔥 Our Goal</h1>
+                <h5><b>To make fitness easy, accessible, and fun for everyone.</b></h5>
+                <p>No crash diets. No expensive equipment. Just you, your body, and a little discipline.</p>
+            </div>
+
+
+            <div class="offcanvas offcanvas-end" id="contactOffcanvas" data-bs-backdrop="static">
+        <div class="offcanvas-header text-bg-success p-3">
+            <h5 class="offcanvas-title"> Get in Touch!</h5>
+            <button class="btn btn-close btn-close-white" data-bs-dismiss="offcanvas" ></button>
+        </div>
+        <div class="offcanvas-body bg-light">
+            <form action="">
+                <div class="form-floating m-3 my-4">
+                    <input type="text" class="form-control" placeholder="" name="">
+                    <label for="" >Full Name</label>
+                </div>
+            </form>
+            <form action="">
+                <div class="form-floating m-3 my-4">
+                    <input type="email" class="form-control" placeholder="">
+                    <label for="">email</label>
+                </div>
+            </form>
+            <form action="">
+                <div class="form-floating m-3 my-4">
+                    <input type="tel" class="form-control" maxlength="10" placeholder="">
+                    <label for="">Phone number</label>
+                </div>
+            </form>
+
+        <form action="">
+            <div class="form-floating m-3 my-4">
+                <input type="text" class="form-control" list="reasons" id="reason" placeholder="" name="">
+                <label for="reason" class="form-label" >Type or select you reason..</label>
+                <datalist id="reasons">
+                    <option value="General Inquiry"></option>
+                    <option value="feedback"></option>
+                    <option value="Nutrition Advice"></option>
+                    <option value="Workout help"></option>
+                </datalist>
+
+            </div>
+        </form>
+        <form action="">
+            <div class=" m-3 my-4">
+                <textarea name="" class="form-control" id="message"   placeholder="Your message"></textarea>
+                <label for="message" class="form-label"></label>
+            </div>
+        </form>
+    </div>
+    <div class="offcanvas-footer bg-white border-top m-3 my-5">
+        <div class="d-flex gap-2">
+        <button class="btn btn-outline-danger m-2 w-50">Reset</button>
+        <button class="btn btn-primary m-2 w-50">Submit</button>
+        </div>
+    </div>
+
+    </section>
+
+        
+
+     <footer class="text-bg-dark text-center py-4">
+  <div class="container">
+    <p class="mb-1">© 2025 <strong> @FitDish!</strong></p>
+    <p >All Rights Reserved • Designed by <strong>Chiruu 💪</strong></p>
+  </div>
+</footer>
+     
+
+    
+</body>
+</html>
